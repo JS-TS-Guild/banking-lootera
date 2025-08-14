@@ -1,6 +1,6 @@
 import User from '@/models/user';
 import Bank from '@/models/bank';
-import { BankAccountId, UserId } from '@/types/Common';
+import { BankAccountId, UserId } from '@/common/types';
 import GlobalRegistry from '@/services/GlobalRegistry';
 
 export interface TestFixtures {
